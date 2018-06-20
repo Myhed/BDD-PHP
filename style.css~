@@ -1,0 +1,110 @@
+*{
+  margin:0;
+  padding:0;
+}
+ul{
+ width:100%;
+ background:tomato;
+}
+
+li{
+ display:inline-block;
+}
+
+a{
+  display:block;
+  padding:8px 35px;
+  cursor:pointer;
+  color:white;
+}
+
+a:hover{
+ background:orange; 
+}
+  
+h1{
+ text-align:center;
+  margin-bottom:75px;
+}
+
+form{
+   
+    width:980px;
+    margin:0 auto;
+    text-align:center;
+    border-radius:20px;
+    border:1px solid black;
+    padding:35px 8px;
+    
+}
+label{
+ display:block; 
+ text-align:center;
+ margin-top:15px;
+}
+
+.ajouter{
+  margin-top:15px;
+  width:180px; 
+  color:white;
+  border:none;
+  padding:6px 12px;
+  cursor:pointer;
+  background:orange;
+  
+}
+
+.supprimer{
+  margin-top:15px;
+  width:180px; 
+  color:white;
+  border:none;
+  padding:6px 12px;
+  cursor:pointer;
+  background:tomato;
+  
+}
+
+.success{
+    background:green;
+    padding:12px 15px;
+    color:white;
+    width:980px;
+    margin:0 auto;
+    margin-top:45px;
+    
+}
+.td-blue{
+  color:white;
+  background:skyblue;
+}
+
+.td-orange{
+  color:black;
+  background:orange;
+}
+table{
+   margin:0 auto;
+   width:980px;
+   margin-top:75px;
+}
+tr{
+ text-align:center; 
+}
+
+td{
+    text-align:center;
+    width:250px;
+    padding:6px 14px;
+    border-bottom:1px solid black;
+}
+
+.danger{
+    background:#87CEFA;
+    padding:12px 15px;
+    color:white;
+    width:980px;
+    margin:0 auto;
+    margin-top:45px;
+    
+}
